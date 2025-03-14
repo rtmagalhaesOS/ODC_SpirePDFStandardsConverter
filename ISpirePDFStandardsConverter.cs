@@ -25,7 +25,6 @@ namespace OutSystems.SpirePDF
         void ConvertPDFToPDFA(
             [OSParameter(Description = "The PDF file content as a byte array to be converted.")] byte[] file,
             [OSParameter(Description = "The PDF/A standard to convert the file to (e.g., '1A', '1B', '2A', '2B', '3A', '3B').")] string standard,
-            [OSParameter(Description = "The license key for Spire PDF. If empty or null, the license will not be set.")] string licenseKey,
             [OSParameter(Description = "The output byte array that will contain the converted PDF/A document.")] out byte[] pdfFile);
     }
 }
