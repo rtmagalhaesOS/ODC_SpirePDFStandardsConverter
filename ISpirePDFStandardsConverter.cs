@@ -11,7 +11,7 @@ namespace OutSystems.SpirePDF
     /// - Supports conversion to multiple PDF/A standards, including **PDF/A-1A, PDF/A-1B, PDF/A-2A, PDF/A-2B, PDF/A-3A, and PDF/A-3B**.
     /// - Provides functionality to **merge multiple PDFs** into a single document.
     /// </remarks>
-    [OSInterface(Description = "Extension for the Free Spire.PDF for .NET library, enabling conversion of PDF documents to PDF/A format. The free version of the library is limited to processing PDFs with up to 10 pages.",
+    [OSInterface(Name = "SpirePDF_PDFA_Converter", Description = "Extension for the Free Spire.PDF for .NET library, enabling conversion of PDF documents to PDF/A format. The free version of the library is limited to processing PDFs with up to 10 pages.",
         IconResourceName = "SpirePDFStandardsConverter.resources.PDF-NET.png")]
     public interface ISpirePDFStandardsConverter
     {
